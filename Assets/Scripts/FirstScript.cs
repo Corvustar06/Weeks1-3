@@ -17,7 +17,7 @@ public class FirstScript : MonoBehaviour
         transform.position = newPos;
 
         Vector2 screenPos = Camera.main.WorldToScreenPoint (transform.position);
-        if (screenPos.x < 0 || screenPos.x > Screen.width) ;
+        if (screenPos.x < 0 || screenPos.x > Screen.width)
         {
             speed = speed * -1;
         }
