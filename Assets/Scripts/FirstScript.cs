@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    float speed = 0.1f;
+    public float speed = 0.1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,5 +21,6 @@ public class FirstScript : MonoBehaviour
         {
             speed = speed * -1;
         }
+
     }
 }
